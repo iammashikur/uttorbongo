@@ -1,0 +1,44 @@
+body{
+
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #1e1e2d;
+}
+
+.card {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.main-header {
+    border-bottom: 0px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.sidebar::-webkit-scrollbar-thumb {
+    background-color: #ffffff26;
+}
+
+[class*=sidebar-dark-] {
+    background-color: #1e1e2d;
+}
+
+[class*=sidebar-dark-] .sidebar i {
+    color: #494b74;
+}
+.layout-navbar-fixed .wrapper .sidebar-dark-primary .brand-link:not([class*=navbar]) {
+    background-color: #1e1e2d;
+}
+.nav-sidebar>.nav-item .nav-icon {
+    font-size: 1rem;
+}
+
+.nav-sidebar .nav-link>.right, .nav-sidebar .nav-link>p>.right {
+    top: .7rem;
+}
+
+.tagify__tag, .tagify__input {
+    margin: 6px 0px 6px 5px;
+}
+
+.tagify {
+    --tag-pad: 0px 2px 0px 5px;
+}
